@@ -1,0 +1,23 @@
+.container{
+    margin: 0 20%;
+    background-color: #B91450;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.h2-n1{
+    padding: 20px 0;
+}
+
+.row{
+    display: flex;
+}
+
+/* colori */
+
+.white{
+    color: white;
+}
