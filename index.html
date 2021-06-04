@@ -19,10 +19,35 @@
 
             <div class="row">
                 <div class="col">
-                    <p></p>
+                    <p class="purple">Nome e Cognome</p>
+                    <input type="text">
                 </div>
-                <div class="col"></div>
-                <div class="col"></div>
+                <div class="col">
+                    <p class="purple">Km da percorrere</p>
+                    <input type="text">
+                </div>
+                <div class="col">
+                    <p class="purple">Fascia d'età</p>
+                    <form action="">
+                        <input list="age" name="age">
+                        <datalist id="age">
+                            <option value="Minorenne"></option>
+                            <option value="Maggiorenne"></option>
+                            <option value="Over 65"></option>
+                        </datalist>
+                    </form>
+                
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="btn-container">
+                    <form action="">
+                        <button>Genera</button>
+                        <button>Annulla</button>
+                    </form>
+                </div>
             </div>
 
         </div>
