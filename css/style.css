@@ -1,4 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container{
+    height: 500px;
     margin: 0 20%;
     background-color: #B91450;
 }
@@ -37,6 +44,29 @@ p{
 
 .btn-container{
     margin-bottom: 10px;
+}
+
+/* blocco inferiore */
+
+.blocco-inf{
+    background-color: #fff;
+    margin: 0 10%;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+table{
+    margin: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+td, th{
+    padding: 0 20px;
+    text-align: left;
+}
+
+#bold{
+    font-weight: bold;
 }
 
 /* colori */

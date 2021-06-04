@@ -18,14 +18,17 @@
         <div class="blocco-sup">
 
             <div class="row">
+
                 <div class="col">
                     <p class="purple">Nome e Cognome</p>
-                    <input type="text">
+                    <input type="text" id="nome">
                 </div>
+
                 <div class="col">
                     <p class="purple">Km da percorrere</p>
-                    <input type="text">
+                    <input type="text" id="km">
                 </div>
+
                 <div class="col">
                     <p class="purple">Fascia d'età</p>
                     <form action="">
@@ -36,24 +39,59 @@
                             <option value="Over 65"></option>
                         </datalist>
                     </form>
-                
-
                 </div>
+
             </div>
 
             <div class="row">
+
                 <div class="btn-container">
                     <form action="">
-                        <button>Genera</button>
-                        <button>Annulla</button>
+                        <button id="genera">Genera</button>
+                        <button id="annulla">Annulla</button>
                     </form>
                 </div>
+
             </div>
 
         </div>
 
         <h2 class="h2-n1 white">calcola il prezzo del tuo biglietto</h2>
 
+        <div class="blocco-inf">
+
+            <div class="row">
+                <div class="col">
+                    
+                    <table>
+                        <tr>
+                            <th>NOME PASSEGGERO</th>
+                            <th>Offerta</th>
+                            <th>Carrozza</th>
+                            <th>Codice CP</th>
+                            <th>Costo Biglietto</th>
+                        </tr>
+
+                        <tr>
+                            <td id="bold"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td id="type-fine"></td>
+                            <td id="carrozza"></td>
+                            <td id="codice"></td>
+                            <td id="prezzo-fine"></td>
+                        </tr>
+                    </table>
+                </div>                
+            </div>
+
+        </div>
 
     </div>
 
